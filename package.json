@@ -20,6 +20,6 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "postcss": "^8.1.7",
-    "tailwindcss": "1.8.10"
+    "tailwindcss": "1.9.6"
   }
 }

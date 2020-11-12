@@ -25,7 +25,7 @@ gulp.task( 'sass', function() {
 		.pipe( sourcemaps.init( { loadMaps: true } ) )
 		.pipe( sass( { errLogToConsole: true } ) )
 		.pipe(postcss([
-            tailwindcss('./tailwind.js'),
+            tailwindcss('./tailwind.config.js'),
             autoprefixer({
                 browsers: ['last 2 versions'],
                 cascade: false,
