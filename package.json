@@ -1,0 +1,25 @@
+{
+  "name": "joel-wedding-theme",
+  "version": "1.0.0",
+  "description": "A simple wedding theme for WordPress",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "keywords": [
+    "wordpress",
+    "wedding",
+    "framework"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.0.2",
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.1.7",
+    "tailwindcss": "1.8.10"
+  }
+}

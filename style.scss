@@ -1,0 +1,25 @@
+/*
+Theme Name: Joel Wedding Theme
+Author: Joel Butcher
+Description: A simple wedding theme for WordPress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* -----------------------------------------
+	Table of Contents
+--------------------------------------------
+
+.. 01. Tailwind
+.. 02. Partials
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Here we import our partials
+@import "css/_partials/mixins";
+@import "css/_partials/variables";
+@import "css/_partials/typography";
